@@ -1,11 +1,3 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <iostream>
 #include <vector>
 #include <list>
@@ -58,7 +50,6 @@ int main()
     expression* e3 = new plusi(e1,e2);
     expression* e4 = new plusi(e3,new num(9));
     cout<<e4->val()<<endl;
-    //
 
     return 0;
 }
