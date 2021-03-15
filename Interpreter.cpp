@@ -41,7 +41,7 @@ public:
     }
 };
 
-int main()
+/*int main()
 {
     cout<<"Hello World"<<endl;
     expression* e1 = new num(5);
@@ -51,4 +51,4 @@ int main()
     cout<<e4->val()<<endl;
 
     return 0;
-}
+}*/
