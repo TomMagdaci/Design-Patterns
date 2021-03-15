@@ -1,11 +1,3 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <iostream>
 #include <vector>
 #include <math.h>
@@ -53,9 +45,9 @@ public:
     }
 };
 
-int main()
+/*int main()
 {
     Pizza* p = new Olive(new Mushroom(new BasicPizza()));
     p->print();
     return 0;
-}
+}*/
