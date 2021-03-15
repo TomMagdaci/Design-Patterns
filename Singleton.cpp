@@ -9,7 +9,6 @@ Singleton Example
 #include <math.h>
 #include <string>
 #include <string.h>
-#include <unordered_map>
 #include <cstring>
 
 using namespace std;
@@ -30,7 +29,7 @@ public:
 
 DataBase* DataBase::d = nullptr;
 
-int main()
+/*int main()
 {
     DataBase* d = DataBase::getAccessToDataBase();
     d->lines = 1111;
@@ -38,4 +37,4 @@ int main()
     cout<<"The number of lines in the data base is: "<<d2->lines<<endl;
 
     return 0;
-}
+}*/
