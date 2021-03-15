@@ -1,4 +1,3 @@
-// Example program
 #include <iostream>
 #include <vector>
 #include <math.h>
@@ -50,11 +49,11 @@ Robot* RobotBuilder::buildRobot() {
 }
 
 
-int main()
+/*int main()
 {
     RobotBuilder rb("tom",313);
     Robot* robot =  rb.setFlyable(1).setMass(5555).buildRobot();
     cout<<"I have built the next robot: "<<robot->name<<" "<<robot->id<<" "<<robot->mass<<" "<<robot->flyable<<endl;
 
     return 0;
-}
+}*/
